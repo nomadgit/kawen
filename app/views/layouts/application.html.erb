@@ -6,6 +6,7 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css">
 <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css">
+    <script language="JavaScript" src="http://j.maxmind.com/app/geoip.js"></script>
   <%= csrf_meta_tags %>
     
   
@@ -57,6 +58,11 @@
             <p>We're a family owned and operated business that prides itself on giving you the TOTAL price up-front. We don't charge usual hidden charges. Call now to avoid dissapointments. We are the number one travels to provide car rental services in KL</p>
         </div>
     </div>
+    
+    
+    <p align="center"><font style="background:#FFFF00"><em><strong>Dapatkan diskaun 50% untuk tempahan pertama. Tawaran ini hanya untuk anda yang tinggal di 
+    <script language="JavaScript">document.write(geoip_city());</script>
+	</strong></em></font></em></p>
 
     
     
